@@ -1,0 +1,16 @@
+@import "../../styles/variables";
+
+.dashboardPage{
+  display: grid;
+  grid-template-columns: 260px 1fr ;
+  .dashboardPage-content{
+    background: $black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    > .container{
+      padding: 5%;
+      background: $darkGrey;
+    }
+  }
+}

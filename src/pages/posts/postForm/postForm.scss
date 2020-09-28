@@ -1,0 +1,13 @@
+@import "../../../styles/variables";
+
+
+.post-form{
+  .custom{
+    &-file{
+      &-label{
+        overflow: hidden;
+        text-overflow: ellipsis;
+      }
+    }
+  }
+}

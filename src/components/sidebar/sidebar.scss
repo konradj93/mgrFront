@@ -1,0 +1,11 @@
+@import "../../styles/variables";
+
+.mainNavigation {
+  min-height: 100vh;
+  background: $darkGrey;
+  .nav-link{
+    &.active{
+      color: $csgmRed;
+    }
+  }
+}
